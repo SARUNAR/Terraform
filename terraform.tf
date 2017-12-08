@@ -5,7 +5,7 @@ provider "aws" {
    }
 
 resource "aws_instance" "example"  {
-        ami = "ami-4fffc834"
+        ami = "ami-55ef662f"
         instance_type = "t2.micro"
         security_groups = ["allow_all"]
         tags {
